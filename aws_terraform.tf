@@ -5,7 +5,7 @@ provider "aws" {
     secret_key  = "aws_secret_key"
 }
 
-#Create EC2 instance with other details
+#Create EC2 instance with attaching single existing SG
 
 resource "aws_instance" "apache-server"{
     
